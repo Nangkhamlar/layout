@@ -35,7 +35,7 @@ height: 80px;
 }
 
 .color-pink{
-    background-color: rgb(233, 70, 160);
+    background-color: rgb(233, 184, 211);
     height: 80px;
     border:1px solid #fff;
     text-align: center;
@@ -93,29 +93,27 @@ height: 80px;
     border:1px solid #fff;
     text-align: center; 
 }
-=======
+
 .color-green{
-    background-color: green;
+    background-color: rgb(27, 245, 27);
     height: 80px;
     border:1px solid #fff;
 }
 
 .color-blue{
-    background-color: rgb(112, 10, 228);
+    background-color: rgb(133, 207, 241);
     height: 80px;
      border:1px solid #fff;
 }
 
 .color-pink{
-    background-color: rgb(233, 70, 160);
+    background-color: rgb(238, 171, 208);
     height: 80px;
      border:1px solid #fff;
 }
 
 .color-red{
-    background-color: rgb(236, 24, 35);
+    background-color: rgb(250, 109, 116);
     height: 80px;
      border:1px solid #fff;
 }
-
->>>>>>> 8f1e2aada27f8cddac39d165dfa2c35b88f4a334
