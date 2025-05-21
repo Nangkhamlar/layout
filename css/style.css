@@ -13,13 +13,6 @@
         text-align: center;
     }
 
-    .color-orange{
-        background-color: #FFD7C7;
-        height: 80px;
-        border: 1px solid #fff;
-        text-align: center;
-    }
-
     .color-blue {
         background-color: #C7D6FF;
         height: 80px;
@@ -57,21 +50,21 @@
         text-align: center;
     }
 
-    .color-orange1 {
+    .color-pink1 {
         background-color: #FF7F4C;
         height: 80px;
         border: 1px solid #fff;
         text-align: center;
     }
 
-    .color-orange2 {
+    .color-pink2 {
         background-color: #FFA37E;
         height: 80px;
         border: 1px solid #fff;
         text-align: center;
     }
 
-    .color-orange3 {
+    .color-pink3 {
         background-color: #FFD7C7;
         height: 80px;
         border: 1px solid #fff;
