@@ -1,47 +1,117 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Columns</title>
-  <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/lib/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .row {
+            display: flex;
+            justify-content: flex-start;
+
+        }
+
+        .box1-column {
+            height: 120px;
+            background-color: #E9C7FF;
+            border: 1px solid #fff;
+            width: 20%;
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+
+        }
+
+        .box2-column {
+            height: 120px;
+            background-color: #9DFFB4;
+            border: 1px solid #fff;
+            width: 14.2857%;
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+
+        }
+
+        .box3-column {
+            height: 120px;
+            background-color: #C7D6FF;
+            border: 1px solid #fff;
+            width: 11.1111%;
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+
+        }
+
+        @media (max-width:992px) {
+            .box1-column {
+                height: 80px;
+                background-color: #C7D6FF;
+            }
+
+            .box2-column {
+                height: 80px;
+                background-color: #E9C7FF;
+                width: 20%;
+            }
+
+            .box3-column {
+                height: 80px;
+                background-color: #9DFFB4;
+                width: 20%;
+            }
+
+        }
+    </style>
+
 </head>
+
 <body>
-  <div class="row">
-      <div class="box1">1</div>
-      <div class="box1">2</div>
-      <div class="box1">3</div>
-      <div class="box1">4</div>
-      <div class="box1">5</div>
-  </div>
-  <div class="row">
-    <div class="box2">1</div>
-    <div class="box2">2</div>
-    <div class="box2">3</div>
-    <div class="box2">4</div>
-    <div class="box2">5</div>
-    <div class="box2">6</div>
-    <div class="box2">7</div>
-  </div>
 
-   <div class="row">
-    <div class="box3">1</div>
-    <div class="box3">2</div>
-    <div class="box3">3</div>
-    <div class="box3">4</div>
-    <div class="box3">5</div>
-    <div class="box3">6</div>
-    <div class="box3">7</div>
-    <div class="box3">8</div>
-    <div class="box3">9</div>
-  </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="box1-column">1</div>
+            <div class="box1-column">2</div>
+            <div class="box1-column">3</div>
+            <div class="box1-column">4</div>
+            <div class="box1-column">5</div>
+        </div>
+
+        <div class="row">
+            <div class="box2-column">1</div>
+            <div class="box2-column">2</div>
+            <div class="box2-column">3</div>
+            <div class="box2-column">4</div>
+            <div class="box2-column">5</div>
+            <div class="box2-column">6</div>
+            <div class="box2-column">7</div>
+        </div>
+
+
+        <div class="row">
+            <div class="box3-column">1</div>
+            <div class="box3-column">2</div>
+            <div class="box3-column">3</div>
+            <div class="box3-column">4</div>
+            <div class="box3-column">5</div>
+            <div class="box3-column">6</div>
+            <div class="box3-column">7</div>
+            <div class="box3-column">8</div>
+            <div class="box3-column">9</div>
+        </div>
+
+
+    </div>
+
+    <script src="./js/lib/bootstrap.min.js"></script>
+    <script src="./js/lib/fontawesome.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
-</html>
 
-  <script src="./js/lib/bootstrap.min.js"></script>
-  <script src="./js/lib/fontawesome.min.js"></script>
-  <script src="./js/script.js"></script>
-</body>
 </html>
